@@ -1,0 +1,428 @@
+@media only screen and (max-width: 1000px) {
+	.innerdiv
+	{
+		transform: scale(0.7);
+	}
+
+    
+    .footer-content img {
+        border-radius: 50%;
+        background-color: #FFF;
+        width: 80px;
+        cursor: pointer;
+    }
+    
+    
+}
+
+
+@media only screen and (max-width: 895px) {
+
+    header nav {
+        padding: 80px 70px;
+        padding-top: 90px;
+    }
+
+    .hero {
+        width: 600px;
+    }
+
+    .hero h1 {
+        font-size: 4rem;
+    }
+      
+    .hero p {
+        font-size: 1.6rem;
+    }
+
+    .hero #btn {
+        font-size: 1.5rem;
+        border-radius: 40px;
+        padding: 15px 40px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .sidebar {
+        width: 500px;
+    }
+
+    .logo img {
+        width: 140px; 
+    }
+
+    .sidebar ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 55px;
+        align-items: flex-start;
+        margin-top: 65px;
+        padding-left: 30px;
+    }
+    
+    header .sidebar-btn {
+        font-size: 25px !important;
+        margin-left: 100px;
+        border-radius: 50px !important;
+        padding: 30px 70px !important;
+    }
+
+    .sidebar ul li a {
+        font-size: 25px;
+    }
+
+    .hamburger .fa-bars {
+        font-size: 40px;
+    }
+
+
+    .sidebar.show {
+        display: block;
+        transform: translateX(0);
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+	.innerdiv
+	{
+		transform: scale(0.6);
+	}
+
+    .team-wrapper h2 {
+        font-size: 3rem;
+        margin-bottom: 60px;
+        text-align: center;
+    } 
+    
+    .team-gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+        row-gap: 60px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+
+    .hero #btn {
+        font-size: 24px !important;
+        border-radius: 50px !important;
+        padding: 20px 40px !important;
+    }
+
+	.div1 {
+		background-position-x: 10rem;
+	}
+	.innerdiv
+	{
+		display: flex; 
+		flex-direction: column;
+		transform: scale(1);
+		margin: 2rem;
+		margin-bottom: 5rem;
+	}
+	.attribution
+	{
+		position: relative;
+	}
+    
+    .footer-content img {
+        border-radius: 50%;
+        background-color: #FFF;
+        width: 50px;
+        cursor: pointer;
+    }
+
+    
+    .sidebar {
+        width: 270px !important;
+    }
+    
+    .sidebar-btn {
+        margin-left: 35px;
+    }
+
+    .sidebar ul li a {
+        font-size: 21px !important;
+    }
+
+    
+
+    header nav {
+        padding: 0px 25px;
+        
+    }
+
+    .hero {
+        width: 350px;
+    }
+
+    .hero h1 {
+        font-size: 3em;
+    }
+      
+    .hero p {
+        font-size: 1.1rem;
+    }
+    
+    .Popular-tour h2 {
+        font-size: 1.6rem;
+    }
+
+    .section-one-card-wrapper {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: space-evenly; 
+    }
+    
+    .section-one-card {
+        width: 100%;
+        max-width: 300px; 
+    }
+    
+    .section-one-card-body h3 {
+        font-size: 1.4rem;
+    }
+    
+    .nav-links {
+        display: none; 
+        flex-direction: column;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.7);
+        width: 100%;
+        top: 80px;
+        left: 0;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .nav-links.active {
+        display: flex; 
+    }
+
+    .nav-links a {
+        padding: 15px 0;
+        width: 100%;
+        display: block;
+    }
+
+    .burger {
+        display: block;
+        color: white;
+        cursor: pointer;
+        font-size: 24px;
+    }
+
+    .burger i {
+        margin-top: 10px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .sidebar {
+        width: 350px;
+    }
+
+    .logo img {
+        width: 80px; 
+        padding-top: 20px !important;
+    }
+
+    .sidebar ul li a {
+        font-size: 22px;
+    }
+
+    .hamburger .fa-bars {
+        font-size: 30px;
+        padding-top: 20px !important;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .sidebar.show {
+        display: block;
+        transform: translateX(0);
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .about-us-image {
+        margin-bottom: -50px;
+    }
+    
+    
+    .about-us-text {
+        max-width: 350px;
+    }
+    
+    .about-us-text p {
+        margin-bottom: 40px;
+    }
+
+    .team-gallery {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 45px;
+    }
+
+    .team-wrapper h2 {
+        font-size: 2rem;
+        margin-bottom: 40px;
+        text-align: center;
+    }    
+    
+    .team-gallery {
+        justify-content: center;
+    }
+
+    .testimonials-header h3 {
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+
+    .about-us-text {
+        margin-inline: 15px !important; 
+    }
+
+    .about-us-text p {
+        font-size: 15px !important;
+        margin-top: -20px;
+    }
+
+
+
+    
+    .team-wrapper {
+        padding: 0 100px !important;
+        margin-bottom: 75px;
+    }
+
+    .team-wrapper h2 {
+        font-size: 1.7rem;
+        margin-bottom: 60px;
+        text-align: center;
+    } 
+    
+   
+
+    .team-gallery {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+    }
+
+    .team-list {
+        width: 180px; 
+        padding-bottom: 15px;
+    }
+
+    .team-list img {
+        width: 100px; 
+        padding-bottom: 15px;
+    }
+
+    .team-details h3 {
+        font-size: 1.1rem;
+        padding-bottom: 5px;
+        font-weight: bold;
+    }
+    
+    .team-details p {
+        font-size: .7rem;
+        font-weight: 500;
+    }
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 400px) { 
+    .hero {
+        width: 300px;
+    }
+
+    .hero h1 {
+        font-size: 2em;
+    }
+      
+    .hero p {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .hero #btn {
+        font-size: 18px !important;
+        border-radius: 30px !important;
+        padding: 10px 30px !important;
+    }
+
+    nav i {
+        font-size: 20px !important;
+    }
+
+    .sidebar {
+        width: 250px !important;
+    }
+
+    .sidebar ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        align-items: flex-start;
+        margin-top: 65px;
+        padding-left: 30px;
+    }
+
+    .fa-close {
+        font-size: 25px;
+    }
+    
+    .sidebar ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 15px !important;
+        display: block;
+    }
+    
+    .sponsors-wrapper h2 {
+        font-size: 1.4rem;
+        margin-bottom: 20px;
+    }
+    
+    .sponsors-logo img {
+        width: 120px;
+        height: auto;
+    }
+    
+
+}
+
+
+@media (orientation: landscape) {
+    .nav-btn {
+        display: none;
+    }
+}
